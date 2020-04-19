@@ -205,7 +205,10 @@ function draw() {
 		}
 		let a = map(counter, 0, 30, 0, 255);
 		tint(255, a);
-		if( nextState == 0){
+		if( nextState == -1){
+			image( DadOfWar, 0, 30);
+		}
+		else if( nextState == 0){
 			image( Satan, 200, 60);
 		}
 		else if( nextState == 1){
@@ -243,7 +246,10 @@ function draw() {
 		}
 		tint(255, 255-a);
 
-		if( nextState == 0){
+		if( nextState == -1){
+			image( DadOfWar, 0, 30);
+		}
+		else if( nextState == 0){
 			image( Satan, 200, 60);
 		}
 		else if( nextState == 1){
