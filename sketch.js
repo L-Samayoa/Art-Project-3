@@ -191,7 +191,7 @@ function draw() {
 		}
 		else if( state == 11){
 			image( CatchHuman, 270, 120);
-			story= "Some Random Guy! Now Billy has a new pet to raise! A new additional to the family!\n" +
+			story= "Some Random Guy! Now Billy has a new pet to raise! A new addition to the family!\n" +
 			"SOME RANDOM GUY WIN!\n" +
 			"Enter \"intro\" to start the start the story over!";
 			text( story, 0, 0, width, 150);
